@@ -20,7 +20,7 @@ import { useT } from '../lib/i18n/I18nContext';
 import { useTheme } from '../theme/ThemeContext';
 import { clayInset, radius, spacing, typography } from '../theme';
 
-const FEEDBACK_EMAIL = 'support@geolens.ai';
+const FEEDBACK_EMAIL = 'Raviislacode@gmail.com';
 
 type Step = 'rate' | 'improve' | 'thanks';
 

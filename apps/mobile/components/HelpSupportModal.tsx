@@ -17,7 +17,7 @@ import { useTheme } from '../theme/ThemeContext';
 import { clayInset, radius, spacing, typography } from '../theme';
 import { startOnboardingFlow } from '../lib/startOnboarding';
 
-const SUPPORT_EMAIL = 'support@geolens.ai';
+const SUPPORT_EMAIL = 'Raviislacode@gmail.com';
 
 type Props = {
   visible: boolean;

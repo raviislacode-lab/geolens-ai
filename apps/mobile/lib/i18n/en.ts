@@ -314,7 +314,7 @@ export const en = {
     'We may update this Privacy Policy as the App changes. We\'ll update the "Last Updated" date above when we do. Continued use of the App after changes means you accept the updated policy.',
   'legal.privacy.s9.title': '9. Contact Us',
   'legal.privacy.s9.body':
-    'Questions about this Privacy Policy? Contact: support@geolens.ai',
+    'Questions about this Privacy Policy? Contact: Raviislacode@gmail.com',
   'legal.terms.s1.title': '1. Acceptance of Terms',
   'legal.terms.s1.body':
     'By downloading, installing, or using GeoLens, you agree to these Terms of Service. If you do not agree, please do not use the App.',
@@ -347,7 +347,7 @@ export const en = {
     'We may revise these Terms from time to time. Continued use of the App after changes constitutes acceptance of the revised Terms.',
   'legal.terms.s11.title': '11. Contact Us',
   'legal.terms.s11.body':
-    'Questions about these Terms? Contact: support@geolens.ai',
+    'Questions about these Terms? Contact: Raviislacode@gmail.com',
   'common.cancel': 'Cancel',
   'common.close': 'Close',
   'common.ok': 'OK',
