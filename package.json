@@ -1,0 +1,10 @@
+{
+  "name": "geolens-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm start --prefix apps/mobile",
+    "android": "npm run android --prefix apps/mobile",
+    "ios": "npm run ios --prefix apps/mobile"
+  }
+}

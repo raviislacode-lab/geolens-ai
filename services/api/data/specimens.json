@@ -1,0 +1,417 @@
+[
+  {
+    "name": "Granite",
+    "rock_type": "Igneous Rock",
+    "hardness": "6 – 7 (Mohs)",
+    "colors": [
+      "light gray",
+      "pink",
+      "white",
+      "black"
+    ],
+    "chemical_composition": "SiO₂, Al₂O₃, KAlSi₃O₈, NaAlSi₃O₈",
+    "formation": "Intrusive (Plutonic)",
+    "common_uses": [
+      "Countertops",
+      "Buildings",
+      "Monuments"
+    ],
+    "found_in": "Worldwide",
+    "about": "Granite is a coarse-grained igneous rock formed deep beneath the Earth's surface from the slow cooling of magma. It is composed mainly of quartz, feldspar, and mica, which give it a speckled look in pink, white, gray, and black. Because it cools slowly underground, individual crystals grow large enough to see with the naked eye. Durable and widespread, granite is one of the most common rocks in continental crust and a classic building stone."
+  },
+  {
+    "name": "Basalt",
+    "rock_type": "Igneous Rock",
+    "hardness": "6 (Mohs)",
+    "colors": [
+      "dark gray",
+      "black",
+      "brown"
+    ],
+    "chemical_composition": "SiO₂, FeO, MgO, CaO",
+    "formation": "Extrusive (Volcanic)",
+    "common_uses": [
+      "Road construction",
+      "Railroad ballast",
+      "Building stone"
+    ],
+    "found_in": "Volcanic regions worldwide",
+    "about": "Basalt is a fine-grained extrusive igneous rock formed when lava cools quickly at or near Earth's surface. It is typically dark gray to black and may contain vesicles — round holes left by trapped gas bubbles. Basalt makes up most of the oceanic crust and is common in lava flows, volcanic islands, and flood-basalt provinces. Its dense, tough nature makes it useful for roads, railroad ballast, and construction aggregate."
+  },
+  {
+    "name": "Obsidian",
+    "rock_type": "Igneous Rock",
+    "hardness": "5 – 5.5 (Mohs)",
+    "colors": [
+      "black",
+      "dark brown",
+      "green",
+      "mahogany"
+    ],
+    "chemical_composition": "SiO₂ (amorphous)",
+    "formation": "Extrusive (Volcanic glass)",
+    "common_uses": [
+      "Historical tools",
+      "Decorative objects",
+      "Surgical scalpel blades"
+    ],
+    "found_in": "Volcanic regions (Obsidian Cliff, Yellowstone; Armenia; Iceland)",
+    "about": "Obsidian is a naturally occurring volcanic glass that forms when felsic lava cools so rapidly that crystals cannot grow. It is usually black or dark brown, with a glassy luster and sharp conchoidal fracture. People have used obsidian for cutting tools for thousands of years because freshly broken edges can be extremely sharp. It is found in volcanic regions where silica-rich lava quenched against air or water."
+  },
+  {
+    "name": "Marble",
+    "rock_type": "Metamorphic Rock",
+    "hardness": "3 – 4 (Mohs)",
+    "colors": [
+      "white",
+      "gray",
+      "pink",
+      "green",
+      "black"
+    ],
+    "chemical_composition": "CaCO₃ (calcite)",
+    "formation": "Metamorphic (regional)",
+    "common_uses": [
+      "Sculpture",
+      "Architecture",
+      "Flooring"
+    ],
+    "found_in": "Italy, Greece, Vermont (USA), Carrara",
+    "about": "Marble is a metamorphic rock made of recrystallized carbonate minerals, most often calcite or dolomite. It forms when limestone is transformed by heat and pressure, producing interlocking crystals and a soft, sugary texture. Colors range from pure white to gray, pink, green, or black depending on impurities. Marble has been prized for sculpture, architecture, and flooring since antiquity because it polishes beautifully."
+  },
+  {
+    "name": "Limestone",
+    "rock_type": "Sedimentary Rock",
+    "hardness": "3 (Mohs)",
+    "colors": [
+      "white",
+      "gray",
+      "tan",
+      "yellow"
+    ],
+    "chemical_composition": "CaCO₃ (calcite)",
+    "formation": "Sedimentary (biochemical/organic)",
+    "common_uses": [
+      "Cement production",
+      "Building material",
+      "Soil conditioner"
+    ],
+    "found_in": "Worldwide, especially in marine environments",
+    "about": "Limestone is a sedimentary rock composed mainly of calcium carbonate, often from shells, coral, and marine organisms. It typically forms in clear, warm, shallow seas and can preserve fossils. Colors are usually white, gray, tan, or yellow. Limestone is essential for cement, building stone, and agriculture, and it dissolves slowly in weak acids — the process that creates caves and karst landscapes."
+  },
+  {
+    "name": "Sandstone",
+    "rock_type": "Sedimentary Rock",
+    "hardness": "6 – 7 (Mohs)",
+    "colors": [
+      "tan",
+      "brown",
+      "yellow",
+      "red",
+      "white"
+    ],
+    "chemical_composition": "SiO₂ (quartz grains), clay minerals, feldspar",
+    "formation": "Sedimentary (clastic)",
+    "common_uses": [
+      "Building stone",
+      "Glass manufacturing",
+      "Aquifer formation"
+    ],
+    "found_in": "Deserts, beaches, riverbeds worldwide",
+    "about": "Sandstone is a clastic sedimentary rock made of sand-sized grains of mineral or rock fragments cemented together. Quartz is the most common grain, sometimes mixed with feldspar or rock fragments. Colors vary with iron oxides and cement — tan, brown, red, yellow, or white are typical. Sandstone records ancient beaches, dunes, and riverbeds, and it is widely used as building stone and for glassmaking silica."
+  },
+  {
+    "name": "Slate",
+    "rock_type": "Metamorphic Rock",
+    "hardness": "5 – 6 (Mohs)",
+    "colors": [
+      "gray",
+      "black",
+      "green",
+      "purple",
+      "red"
+    ],
+    "chemical_composition": "Clay minerals, quartz, mica",
+    "formation": "Metamorphic (low-grade)",
+    "common_uses": [
+      "Roofing tiles",
+      "Floor tiles",
+      "Blackboards"
+    ],
+    "found_in": "Wales, Vermont (USA), Spain, China",
+    "about": "Slate is a fine-grained, foliated metamorphic rock that forms when shale is altered under low-grade metamorphism. Aligned clay and mica minerals create cleavage planes, so slate splits into thin, durable sheets. Colors include gray, black, green, purple, and red. That natural split makes slate ideal for roofing, flooring, and traditional blackboards."
+  },
+  {
+    "name": "Quartz",
+    "rock_type": "Mineral",
+    "hardness": "7 (Mohs)",
+    "colors": [
+      "colorless",
+      "white",
+      "pink",
+      "purple",
+      "smoky"
+    ],
+    "chemical_composition": "SiO₂",
+    "formation": "Igneous, metamorphic, and sedimentary environments",
+    "common_uses": [
+      "Glass",
+      "Electronics",
+      "Gemstones",
+      "Abrasives"
+    ],
+    "found_in": "Worldwide — one of the most abundant minerals",
+    "about": "Quartz is a hard crystalline mineral made of pure silica (SiO₂) and is the second most abundant mineral in Earth's continental crust. It is tough (Mohs 7), chemically resistant, and appears in many colors — clear, white, pink, purple, smoky, and more. Quartz forms in igneous, metamorphic, and sedimentary settings, often as veins, crystals, or sand grains. It is used in glass, electronics, abrasives, and gemstones."
+  },
+  {
+    "name": "Quartzite",
+    "rock_type": "Metamorphic Rock",
+    "hardness": "7 (Mohs)",
+    "colors": [
+      "white",
+      "gray",
+      "pink",
+      "red"
+    ],
+    "chemical_composition": "SiO₂ (recrystallized quartz)",
+    "formation": "Metamorphic (from sandstone)",
+    "common_uses": [
+      "Building stone",
+      "Railroad ballast",
+      "Decorative stone"
+    ],
+    "found_in": "Mountain regions worldwide",
+    "about": "Quartzite is a hard, non-foliated metamorphic rock formed when sandstone is recrystallized under heat and pressure. The original sand grains fuse into interlocking quartz, making the rock extremely tough and usually light-colored. Unlike sandstone, a broken surface of quartzite typically fractures through the grains rather than around them. It is common in mountain belts and valued as a durable building and decorative stone."
+  },
+  {
+    "name": "Granodiorite",
+    "rock_type": "Igneous Rock",
+    "hardness": "6 – 7 (Mohs)",
+    "colors": [
+      "gray",
+      "white",
+      "black"
+    ],
+    "chemical_composition": "SiO₂, plagioclase, biotite, hornblende",
+    "formation": "Intrusive (Plutonic)",
+    "common_uses": [
+      "Building stone",
+      "Monuments",
+      "Paving"
+    ],
+    "found_in": "Mountain belts worldwide",
+    "about": "Granodiorite is a coarse-grained intrusive igneous rock closely related to granite. It contains more plagioclase feldspar than alkali feldspar, so it often looks grayer and less pink than classic granite. Dark minerals such as biotite and hornblende are common. Like granite, it forms deep underground from slow-cooling magma and is used for buildings, monuments, and paving."
+  },
+  {
+    "name": "Diorite",
+    "rock_type": "Igneous Rock",
+    "hardness": "6 – 7 (Mohs)",
+    "colors": [
+      "gray",
+      "black",
+      "white"
+    ],
+    "chemical_composition": "SiO₂, plagioclase, hornblende, biotite",
+    "formation": "Intrusive (Plutonic)",
+    "common_uses": [
+      "Building stone",
+      "Decorative stone",
+      "Aggregate"
+    ],
+    "found_in": "Volcanic arcs, mountain belts",
+    "about": "Diorite is a coarse-grained intrusive igneous rock with a composition between gabbro and granite. It is usually speckled gray to black-and-white, with plagioclase, hornblende, and biotite as major minerals. Diorite forms from intermediate magmas that cool slowly underground, often in volcanic-arc settings. It is used as building stone, decorative stone, and aggregate."
+  },
+  {
+    "name": "Schist",
+    "rock_type": "Metamorphic Rock",
+    "hardness": "4 – 5 (Mohs)",
+    "colors": [
+      "gray",
+      "green",
+      "brown",
+      "silver"
+    ],
+    "chemical_composition": "Mica, quartz, feldspar, garnet",
+    "formation": "Metamorphic (medium-grade)",
+    "common_uses": [
+      "Decorative stone",
+      "Aggregate"
+    ],
+    "found_in": "Mountain belts, metamorphic terrains",
+    "about": "Schist is a medium-grade metamorphic rock rich in platy minerals such as mica, which give it a shiny, foliated fabric. Individual mineral flakes are usually visible to the eye, and garnet or other metamorphic minerals may appear as porphyroblasts. Schist forms when rocks are buried and deformed under moderate heat and pressure in mountain belts. It is mainly used as decorative stone and aggregate."
+  },
+  {
+    "name": "Gneiss",
+    "rock_type": "Metamorphic Rock",
+    "hardness": "7 (Mohs)",
+    "colors": [
+      "black",
+      "white",
+      "pink",
+      "gray"
+    ],
+    "chemical_composition": "Quartz, feldspar, mica, hornblende",
+    "formation": "Metamorphic (high-grade)",
+    "common_uses": [
+      "Building stone",
+      "Paving",
+      "Monuments"
+    ],
+    "found_in": "Precambrian shields, mountain cores",
+    "about": "Gneiss is a high-grade metamorphic rock with distinct light and dark mineral banding. Intense heat and pressure cause minerals to segregate into stripes of quartz/feldspar and darker mafic minerals. Gneiss is common in ancient continental shields and deep mountain cores. Its hardness and attractive banding make it useful for building stone, paving, and monuments."
+  },
+  {
+    "name": "Shale",
+    "rock_type": "Sedimentary Rock",
+    "hardness": "1 – 2 (Mohs)",
+    "colors": [
+      "gray",
+      "black",
+      "brown",
+      "red",
+      "green"
+    ],
+    "chemical_composition": "Clay minerals, quartz, calcite",
+    "formation": "Sedimentary (detrital)",
+    "common_uses": [
+      "Ceramics",
+      "Cement",
+      "Oil and gas source rock"
+    ],
+    "found_in": "River deltas, lake beds, ocean floors",
+    "about": "Shale is a fine-grained sedimentary rock formed from compacted clay and mud. It splits easily along flat bedding planes and is typically soft compared with most rocks. Colors range from gray and black to brown, red, or green depending on organic matter and iron content. Shale is important as a source rock for oil and gas and as a raw material for ceramics and cement."
+  },
+  {
+    "name": "Flint",
+    "rock_type": "Sedimentary Rock",
+    "hardness": "7 (Mohs)",
+    "colors": [
+      "black",
+      "gray",
+      "brown",
+      "white"
+    ],
+    "chemical_composition": "SiO₂ (microcrystalline quartz)",
+    "formation": "Sedimentary (chemical/biogenic)",
+    "common_uses": [
+      "Historical tools",
+      "Fire starters",
+      "Building material"
+    ],
+    "found_in": "Chalk and limestone formations, especially in Europe",
+    "about": "Flint is a hard, microcrystalline form of quartz (a variety of chert) that commonly occurs as nodules in chalk and limestone. It has a glassy to waxy luster and breaks with sharp conchoidal fractures. For millennia people used flint for tools and fire-starting because it sparks against steel and holds a keen edge. Fresh surfaces are often dark gray to black; weathered pieces may develop a white outer cortex."
+  },
+  {
+    "name": "Scoria",
+    "rock_type": "Igneous Rock",
+    "hardness": "5 – 6 (Mohs)",
+    "colors": [
+      "dark gray",
+      "black",
+      "red-brown"
+    ],
+    "chemical_composition": "SiO₂, FeO, MgO",
+    "formation": "Extrusive (Volcanic)",
+    "common_uses": [
+      "Landscaping",
+      "Lightweight aggregate",
+      "Railroad ballast"
+    ],
+    "found_in": "Volcanic regions worldwide",
+    "about": "Scoria is a dark, highly vesicular volcanic rock formed from gas-rich basaltic or andesitic lava. The abundant bubbles make it lighter than solid basalt, though denser than pumice. Colors are typically dark gray, black, or reddish-brown. Scoria is widely used in landscaping, lightweight aggregate, and drainage applications."
+  },
+  {
+    "name": "Amethyst",
+    "rock_type": "Gemstone",
+    "hardness": "7 (Mohs)",
+    "colors": [
+      "purple",
+      "violet"
+    ],
+    "chemical_composition": "SiO₂ (quartz with iron impurities)",
+    "formation": "Hydrothermal veins, geodes",
+    "common_uses": [
+      "Jewelry",
+      "Decorative objects",
+      "Collecting"
+    ],
+    "found_in": "Brazil, Uruguay, Zambia, South Korea",
+    "about": "Amethyst is the purple variety of quartz, colored by iron impurities and natural irradiation. Crystals often grow in geodes and hydrothermal veins, ranging from pale lilac to deep violet. With a Mohs hardness of 7, it is durable enough for jewelry and decorative objects. Major sources include Brazil, Uruguay, and Zambia; it remains one of the most popular quartz gemstones."
+  },
+  {
+    "name": "Pyrite",
+    "rock_type": "Mineral",
+    "hardness": "6 – 6.5 (Mohs)",
+    "colors": [
+      "brass yellow",
+      "gold"
+    ],
+    "chemical_composition": "FeS₂",
+    "formation": "Hydrothermal veins, sedimentary, metamorphic",
+    "common_uses": [
+      "Historical sulfur source",
+      "Collecting",
+      "Acid mine drainage indicator"
+    ],
+    "found_in": "Worldwide in many geological settings",
+    "about": "Pyrite is an iron sulfide mineral (FeS₂) known for its metallic luster and brass-yellow color — hence the nickname fool's gold. It commonly forms cubic or pyritohedral crystals and occurs in hydrothermal veins as well as sedimentary and metamorphic rocks. While not a major ore of iron today, pyrite was historically important for sulfur and is a useful environmental indicator because it can generate acid mine drainage when oxidized."
+  },
+  {
+    "name": "Calcite",
+    "rock_type": "Mineral",
+    "hardness": "3 (Mohs)",
+    "colors": [
+      "colorless",
+      "white",
+      "yellow",
+      "orange",
+      "blue"
+    ],
+    "chemical_composition": "CaCO₃",
+    "formation": "Sedimentary, metamorphic, hydrothermal",
+    "common_uses": [
+      "Cement",
+      "Optics",
+      "Acid neutralization"
+    ],
+    "found_in": "Limestone caves, marble, worldwide",
+    "about": "Calcite is a carbonate mineral (CaCO₃) and the most stable form of calcium carbonate at Earth's surface. It is soft (Mohs 3), often transparent to translucent, and fizzes vigorously in dilute hydrochloric acid. Calcite is the main mineral in limestone and marble and also grows as cave formations and hydrothermal crystals. It is used in cement, optics, and industrial acid neutralization."
+  },
+  {
+    "name": "Magnetite",
+    "rock_type": "Mineral",
+    "hardness": "5.5 – 6.5 (Mohs)",
+    "colors": [
+      "black",
+      "brownish-black"
+    ],
+    "chemical_composition": "Fe₃O₄",
+    "formation": "Igneous, metamorphic, sedimentary",
+    "common_uses": [
+      "Iron ore",
+      "Heavy media separation",
+      "Magnetic recording"
+    ],
+    "found_in": "Worldwide, especially in igneous and metamorphic rocks",
+    "about": "Magnetite is an iron oxide mineral (Fe₃O₄) and one of Earth's principal iron ores. It is black to brownish-black, metallic to dull, and notably magnetic — the most magnetic common mineral. Magnetite forms in igneous, metamorphic, and sedimentary environments and concentrates in heavy-mineral sands and iron formations. Beyond steelmaking, it is used in heavy-media separation and historical magnetic applications."
+  },
+  {
+    "name": "Hematite",
+    "rock_type": "Mineral",
+    "hardness": "5.5 – 6.5 (Mohs)",
+    "colors": [
+      "steel gray",
+      "black",
+      "reddish-brown"
+    ],
+    "chemical_composition": "Fe₂O₃",
+    "formation": "Sedimentary, metamorphic, hydrothermal",
+    "common_uses": [
+      "Iron ore",
+      "Pigment",
+      "Jewelry"
+    ],
+    "found_in": "Worldwide, especially banded iron formations",
+    "about": "Hematite is an iron oxide mineral (Fe₂O₃) and the primary ore of iron worldwide. It ranges from steel-gray and metallic to earthy reddish-brown; its diagnostic streak is always reddish-brown. Hematite is especially abundant in banded iron formations and also forms as hydrothermal and sedimentary deposits. Besides ore, it is used as a pigment and in jewelry."
+  }
+]

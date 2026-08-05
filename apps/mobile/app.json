@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "GeoLens",
+    "slug": "geolens-ai",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "scheme": "geolens",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E5E1EE"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.geolens.app",
+      "requireFullScreen": true,
+      "icon": "./assets/images/icon.png",
+      "infoPlist": {
+        "NSCameraUsageDescription": "GeoLens needs camera access to identify rocks and minerals.",
+        "NSPhotoLibraryUsageDescription": "GeoLens needs photo library access to identify saved rock images."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#E5E1EE"
+      },
+      "package": "ai.geolens.app"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#E5E1EE"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow GeoLens to access your camera to identify rocks."
+        }
+      ],
+      "expo-sqlite",
+      "expo-asset",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

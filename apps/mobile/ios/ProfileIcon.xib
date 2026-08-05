@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ProfileIcon.xib
+     GeoLens AI
+
+     HIG Compliance Update — Navigation Streamlining (Release: 2026-08-03)
+
+     This file was previously named SettingsIcon.xib and displayed a settings-gear icon.
+     Per the navigation streamlining changes:
+       - RENAMED: SettingsIcon.xib → ProfileIcon.xib
+       - VISUAL ASSET UPDATED: settings_icon → profile_icon_asset.png (person-circle style)
+       - NAVIGATION TARGET: Formerly opened SettingsViewController.
+                            Now opens ProfileSettingsViewController.
+
+     Apple HIG: Navigation bars should use clear, recognizable icons.
+     SF Symbol used: person.circle (mapped to profile_icon_asset.png in Assets.xcassets)
+-->
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23058" targetRuntime="AppleCocoa Touch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23042"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <!-- Profile Icon Image View — asset: profile_icon_asset.png -->
+                <!-- Renamed from SettingsIcon visual element -->
+                <imageView
+                    clipsSubviews="YES"
+                    userInteractionEnabled="NO"
+                    contentMode="scaleAspectFit"
+                    image="profile_icon_asset"
+                    id="profileIconImageView"
+                    translatesAutoresizingMaskIntoConstraints="NO">
+                    <rect key="frame" x="9" y="9" width="26" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="26" id="w"/>
+                        <constraint firstAttribute="height" constant="26" id="h"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+            <constraints>
+                <constraint firstItem="profileIconImageView" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="cx"/>
+                <constraint firstItem="profileIconImageView" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="cy"/>
+            </constraints>
+            <point key="canvasLocation" x="53" y="375"/>
+        </view>
+    </objects>
+    <resources>
+        <!-- profile_icon_asset.png replaces the former settings_icon visual asset -->
+        <image name="profile_icon_asset" width="512" height="512"/>
+    </resources>
+</document>
