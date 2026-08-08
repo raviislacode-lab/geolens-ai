@@ -236,16 +236,57 @@ export const en = {
     'Free includes {n} lifetime scans. Start a {days}-day trial for unlimited access.',
   'paywall.subtitle.subscribe':
     'Choose a billing period to keep unlimited identifications.',
+  'paywall.subtitle.onboarding':
+    'Would you like Premium now for unlimited scans, or stay on the free version with {n} lifetime scans?',
   'paywall.banner.locked': 'Free scans used · Premium required to continue',
   'paywall.banner.remaining': '{n} free scans left',
   'paywall.banner.remaining_one': '{n} free scan left',
   'paywall.cta.trial': 'Start {days}-day free trial',
   'paywall.cta.subscribe': 'Subscribe · {price}',
+  'paywall.cta.lifetime': 'Get lifetime · {price}',
   'paywall.continueFree': 'Continue with Free',
+  'paywall.notNow': 'Not now',
+  'paywall.continueBrowsing': 'Continue browsing',
+  'paywall.restore': 'Restore purchases',
+  'paywall.restore.success': 'Premium restored',
+  'paywall.restore.successBody': 'Your subscription is active again.',
+  'paywall.restore.none': 'Nothing to restore',
+  'paywall.purchaseError': 'Purchase failed',
+  'paywall.purchaseMocked': 'Dev unlock',
+  'paywall.purchaseMockedBody':
+    'RevenueCat is not configured, so Premium was unlocked locally for testing.',
   'paywall.lifetime': 'Or get lifetime access for {price} one-time',
   'paywall.plan.weekly': 'Weekly',
   'paywall.plan.monthly': 'Monthly',
   'paywall.plan.annual': 'Annual',
+  'paywall.plan.lifetime': 'Lifetime',
+  'paywall.plan.lifetimeHint': 'One-time',
+  'paywall.plan.lifetimeDetail': 'One payment. Unlimited Premium forever.',
+  'paywall.period.weekly': 'Billed every week',
+  'paywall.period.monthly': 'Billed every month',
+  'paywall.period.annual': 'Billed once a year',
+  'paywall.period.lifetime': 'One-time purchase',
+  'paywall.badge.popular': 'Most popular',
+  'paywall.badge.bestValue': 'Best value',
+  'paywall.badge.save': 'Save {n}%',
+  'paywall.fine.trial':
+    'Start a {days}-day free trial. After the trial, you will be charged unless you cancel. Manage or cancel anytime in your App Store / Google Play account settings.',
+  'paywall.fine.subscribe':
+    'Subscriptions renew automatically unless canceled. Manage or cancel anytime in your App Store / Google Play account settings.',
+  'paywall.fine.lifetime':
+    'Lifetime is a one-time purchase with no renewal.',
+  'paywall.special.title': 'Wait — once-in-a-lifetime deal',
+  'paywall.special.subtitle': 'This offer disappears forever if you leave.',
+  'paywall.special.save': 'You save {n}% off the regular annual price',
+  'paywall.special.noThanks': 'No thanks, I understand',
+  'paywall.savings.label': "You're saving",
+  'paywall.savings.weekly': 'compared to weekly billing',
+  'paywall.savings.lifetime': 'Best value vs 2 years of annual',
+  'paywall.savings.flexible': 'Flexible plan',
+  'paywall.savings.flexibleHint':
+    'Pick Monthly, Annual, or Lifetime to see how much you save',
+  'paywall.savings.flexibleHintPlans':
+    'Switch to Monthly or Annual to unlock savings',
   'paywall.perk.unlimited': 'Unlimited rock identifications',
   'paywall.perk.confidence': 'Higher-confidence AI analysis',
   'paywall.perk.history': 'Full specimen history & favorites',
@@ -286,7 +327,8 @@ export const en = {
 
   'legal.privacy.title': 'Privacy Policy',
   'legal.terms.title': 'Terms of Service',
-  'legal.updated': 'Last updated: August 2026',
+  'legal.updated': 'Last updated: August 8, 2026',
+  'legal.viewOnline': 'View full version on website',
   'legal.done': 'Done',
   'legal.privacy.s1.title': '1. Introduction',
   'legal.privacy.s1.body':
@@ -305,7 +347,7 @@ export const en = {
     '• Most of your data (photos, history, collection) is stored locally on your device.\n• Data sent to our API for processing is transmitted using encrypted connections (HTTPS/TLS).\n• We retain API request data only as long as necessary to return your result, then delete it, unless otherwise required by law.',
   'legal.privacy.s6.title': '6. Children\'s Privacy',
   'legal.privacy.s6.body':
-    'GeoLens does not knowingly collect personal information from children beyond what\'s needed to operate the app (like a photo submitted for identification). We do not require account creation with personal details. If you are a parent/guardian and believe your child has provided personal information beyond this, contact us using the information in Section 9.',
+    'GeoLens does not knowingly collect personal information from children beyond what\'s needed to operate the app. Setting up a profile only requires a username and display name — no email, real name, or other personal details are required, and neither is verified against your real identity. If you are a parent/guardian and believe your child has provided personal information beyond this, contact us using the information in Section 9.',
   'legal.privacy.s7.title': '7. Your Choices & Rights',
   'legal.privacy.s7.body':
     'Depending on your location (e.g., under GDPR in the EU/UK or CCPA in California), you may have rights to:\n• Access the data associated with your requests\n• Request deletion of data held by our API provider\n• Opt out of any optional data-sharing features\n\nSince most data stays on your device, deleting the App or clearing its data removes the vast majority of your information immediately.',
@@ -327,26 +369,29 @@ export const en = {
   'legal.terms.s4.title': '4. User Responsibilities',
   'legal.terms.s4.body':
     'You agree to:\n• Use the App only for lawful purposes\n• Not attempt to reverse-engineer, hack, or misuse the AI identification service\n• Not upload photos containing illegal content or content that violates others\' rights',
-  'legal.terms.s5.title': '5. Intellectual Property',
+  'legal.terms.s5.title': '5. Accounts and Usernames',
   'legal.terms.s5.body':
-    'The App, its design, code, and AI models are owned by GeoLens and its licensors. You retain ownership of the photos you take, but you grant us a limited license to process them (e.g., send them to our API) solely to provide the identification service.',
-  'legal.terms.s6.title': '6. Disclaimer of Warranties',
+    'Using GeoLens may require choosing a username and display name. You agree to:\n• Not choose a username or display name that is offensive, impersonates another person or brand, or violates others\' rights\n• Not attempt to access or interfere with another user\'s profile\n• Keep in mind that a username does not create a verified account tied to your real identity — no password or personal details are required\n\nWe reserve the right to remove, rename, or restrict any username or display name that violates these Terms, without notice.',
+  'legal.terms.s6.title': '6. Intellectual Property',
   'legal.terms.s6.body':
-    'The App is provided "as is" without warranties of any kind, express or implied. We do not guarantee the App will be error-free, uninterrupted, or that identification results will always be accurate.',
-  'legal.terms.s7.title': '7. Limitation of Liability',
+    'The App, its design, code, and AI models are owned by GeoLens and its licensors. You retain ownership of the photos you take, but you grant us a limited license to process them (e.g., send them to our API) solely to provide the identification service.',
+  'legal.terms.s7.title': '7. Disclaimer of Warranties',
   'legal.terms.s7.body':
-    'To the fullest extent permitted by law, GeoLens and its developers are not liable for any indirect, incidental, or consequential damages arising from your use of the App, including reliance on identification results.',
-  'legal.terms.s8.title': '8. Termination',
+    'The App is provided "as is" without warranties of any kind, express or implied. We do not guarantee the App will be error-free, uninterrupted, or that identification results will always be accurate.',
+  'legal.terms.s8.title': '8. Limitation of Liability',
   'legal.terms.s8.body':
-    'We reserve the right to suspend or terminate access to the App for violations of these Terms.',
-  'legal.terms.s9.title': '9. Governing Law',
+    'To the fullest extent permitted by law, GeoLens and its developers are not liable for any indirect, incidental, or consequential damages arising from your use of the App, including reliance on identification results.',
+  'legal.terms.s9.title': '9. Termination',
   'legal.terms.s9.body':
-    'These Terms are governed by the laws of the United States, without regard to conflict-of-law principles.',
-  'legal.terms.s10.title': '10. Changes to These Terms',
+    'We reserve the right to suspend or terminate access to the App for violations of these Terms.',
+  'legal.terms.s10.title': '10. Governing Law',
   'legal.terms.s10.body':
-    'We may revise these Terms from time to time. Continued use of the App after changes constitutes acceptance of the revised Terms.',
-  'legal.terms.s11.title': '11. Contact Us',
+    'These Terms are governed by the laws of the United States, without regard to conflict-of-law principles.',
+  'legal.terms.s11.title': '11. Changes to These Terms',
   'legal.terms.s11.body':
+    'We may revise these Terms from time to time. Continued use of the App after changes constitutes acceptance of the revised Terms.',
+  'legal.terms.s12.title': '12. Contact Us',
+  'legal.terms.s12.body':
     'Questions about these Terms? Contact: Raviislacode@gmail.com',
   'common.cancel': 'Cancel',
   'common.close': 'Close',
@@ -379,7 +424,8 @@ export const en = {
 
   'onboarding.tutorial.skip': 'Skip tutorial',
   'onboarding.tutorial.gotIt': 'Got it',
-  'onboarding.tutorial.finish': 'Start identifying',
+  'onboarding.tutorial.finish': 'Continue',
+  'onboarding.tutorial.finishToPaywall': 'See Premium options',
   'onboarding.tutorial.step1.title': 'Welcome home',
   'onboarding.tutorial.step1.body':
     'This is Home — your base for identifying rocks and seeing recent finds.',
@@ -406,7 +452,7 @@ export const en = {
     'Identify rocks, build streaks, and explore types to unlock badges.',
   'onboarding.tutorial.step9.title': "You're ready",
   'onboarding.tutorial.step9.body':
-    'Capture your first rock and start building your collection.',
+    'Next, choose Premium for unlimited scans — or continue with the free version.',
 } as const;
 
 export type TranslationKey = keyof typeof en;

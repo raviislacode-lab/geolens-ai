@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Linking,
   Modal,
   Pressable,
   ScrollView,
@@ -15,6 +16,11 @@ import { radius, spacing, typography } from '../theme';
 
 export type LegalDocKind = 'privacy' | 'terms';
 
+const LEGAL_URLS: Record<LegalDocKind, string> = {
+  privacy: 'https://raviislacode-lab.github.io/geolens-ai/privacy.html',
+  terms: 'https://raviislacode-lab.github.io/geolens-ai/terms.html',
+};
+
 type Props = {
   visible: boolean;
   kind: LegalDocKind;
@@ -27,6 +33,12 @@ export function LegalDocumentModal({ visible, kind, onClose }: Props) {
 
   const title =
     kind === 'privacy' ? t('legal.privacy.title') : t('legal.terms.title');
+  const webUrl = LEGAL_URLS[kind];
+
+  const openWebsite = () => {
+    void Linking.openURL(webUrl);
+  };
+
   const sections =
     kind === 'privacy'
       ? ([
@@ -52,6 +64,7 @@ export function LegalDocumentModal({ visible, kind, onClose }: Props) {
           ['legal.terms.s9.title', 'legal.terms.s9.body'],
           ['legal.terms.s10.title', 'legal.terms.s10.body'],
           ['legal.terms.s11.title', 'legal.terms.s11.body'],
+          ['legal.terms.s12.title', 'legal.terms.s12.body'],
         ] as const);
 
   return (
@@ -72,6 +85,18 @@ export function LegalDocumentModal({ visible, kind, onClose }: Props) {
           <Text style={[styles.updated, { color: colors.textLight }]}>
             {t('legal.updated')}
           </Text>
+          <Pressable
+            onPress={openWebsite}
+            accessibilityRole="link"
+            style={styles.linkRow}
+          >
+            <Text style={[styles.linkText, { color: colors.accentIcon }]}>
+              {t('legal.viewOnline')}
+            </Text>
+            <Text style={[styles.linkUrl, { color: colors.textMutedStrong }]} numberOfLines={1}>
+              {webUrl}
+            </Text>
+          </Pressable>
 
           <ScrollView
             style={styles.scroll}
@@ -124,7 +149,10 @@ const styles = StyleSheet.create({
     marginBottom: spacing.md,
   },
   title: { ...typography.heading, fontSize: 22 },
-  updated: { ...typography.small, marginTop: 4, marginBottom: spacing.md },
+  updated: { ...typography.small, marginTop: 4, marginBottom: spacing.sm },
+  linkRow: { marginBottom: spacing.md },
+  linkText: { ...typography.caption, fontWeight: '700' },
+  linkUrl: { ...typography.small, marginTop: 4 },
   scroll: { flexGrow: 0 },
   scrollContent: { paddingBottom: spacing.md },
   section: { marginBottom: spacing.lg },
